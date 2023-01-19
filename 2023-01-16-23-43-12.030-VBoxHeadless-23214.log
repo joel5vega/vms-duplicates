@@ -1,0 +1,12 @@
+Log created: 2023-01-16T23:43:12.308445000Z
+Process ID:  23214 (0x5aae)
+Parent PID:  2844 (0xb1c)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: w1
+Arg[3]: --startvm
+Arg[4]: 135c4c92-15cb-4582-8f4f-0ef945a56bde
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2

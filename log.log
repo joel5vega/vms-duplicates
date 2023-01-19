@@ -1,0 +1,9 @@
+
+
+2023-01-16 17:16:33,669-04 INFO  [org.ovirt.engine.core.vdsbroker.monitoring.VmAnalyzer] (EE-ManagedThreadFactory-engineScheduled-Thread-28) [] VM 'a69fc3e4-3e94-4c15-af6f-4639c1a546ac'(lbozovdi) was unexpectedly detected as 'Up' on VDS 'f96ae6b1-8234-4af5-ab67-230911122aab'(rhevlpz03) (expected on '70882e02-d130-4663-a475-33a545c50cad')
+
+2023-01-16 17:16:33,669-04 INFO  [org.ovirt.engine.core.vdsbroker.monitoring.VmAnalyzer] (EE-ManagedThreadFactory-engineScheduled-Thread-28) [] VM 'a69fc3e4-3e94-4c15-af6f-4639c1a546ac'(ssvdi) was unexpectedly detected as 'Up' on VDS 'f96ae6b1-8234-4af5-ab67-230911122aab'(rhevlpz03) (expected on '70882e02-d130-4663-a475-33a545c50cad')
+2023-01-16 17:16:33,669-04 INFO  [org.ovirt.engine.core.vdsbroker.monitoring.VmAnalyzer] (EE-ManagedThreadFactory-engineScheduled-Thread-28) [] VM 'a69fc3e4-3e94-4c15-af6f-4639c1a546ac'(lbozovdi) was unexpectedly detected as 'Up' on VDS 'f96ae6b1-8234-4af5-ab67-230911122aab'(rhevlpz03) (expected on '70882e02-d130-4663-a475-33a545c50cad')
+
+2023-01-16 17:16:33,669-04 INFO  [org.ovirt.engine.core.vdsbroker.monitoring.VmAnalyzer] (EE-ManagedThreadFactory-engineScheduled-Thread-28) [] VM 'a69fc3e4-3e94-4c15-af6f-4639c1a546ac'(lbozovdi) was unexpectedly detected as 'Up' on VDS 'f96ae6b1-8234-4af5-ab67-230911122aab'(rhevlpz03) (expected on '70882e02-d130-4663-a475-33a545c50cad')
+2023-01-16 17:16:33,669-04 INFO  [org.ovirt.engine.core.vdsbroker.monitoring.VmAnalyzer] (EE-ManagedThreadFactory-engineScheduled-Thread-28) [] VM 'a69fc3e4-3e94-4c15-af6f-4639c1a546ac'(lbozovdi) was unexpectedly detected as 'Up' on VDS 'f96ae6b1-8234-4af5-ab67-230911122aab'(rhevlpz03) (expected on '70882e02-d130-4663-a475-33a545c50cad')

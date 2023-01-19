@@ -1,0 +1,27 @@
+- name: Find processes running on hosts
+  hosts: k8s
+  
+  vars: 
+    output_file: "processes.txt"
+  tasks:
+  - name: Read processes from file
+    set_fact:
+      vms: "{{ lookup('file', 'vms.txt') }}"
+
+  - name: Search for hosts running processes
+    raw: ps -ax |grep -i {{ item }}|grep -v grep
+    register: process_output
+    loop: "{{ vms.splitlines() }}"
+    ignore_errors: yes
+  - name: create files
+    local_action:
+      module: file
+      path: "{{ item }}.txt"
+      state: touch
+    with_items: "{{ vms.splitlines() }}"
+  - name: Save process and hostname
+    local_action:
+      module: lineinfile
+      path: "{{ item }}.txt"
+      line: "{{ inventory_hostname }}:{{ process_output.results[0].stdout }}"
+    with_items: "{{ vms.splitlines() }}"
